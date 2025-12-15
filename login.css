@@ -1,0 +1,67 @@
+html, body{
+    height:100%;
+}
+
+body {
+    background-color: #FFF5CC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-image: url(image3/flowers.jpg); 
+    background-size: cover;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+ 
+.login-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding:10px;
+ }
+
+h2 {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    margin-bottom: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.login-button {
+    background: #2E4A2F;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+a {
+    color: white;
+}
+p a:hover {
+    color: #1e351e;
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+body {
+    background-color: #fdfbd4;
+    color:  #3e5725;
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+.heading img {
+    width: 100%;
+    height: 300px;
+    background-size:100% 100%;
+    margin-top: 60px;
+}
+.gate img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #3e5725;
+    border-radius: 10px;
+}
+.kdg_container {
+    margin-top: 60px;
+}
+/* FLower Festival */
+.festival, .kdg_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.festival img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #3e5725;
+    border-radius: 10px;
+}
+/* event */
+.card hr {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    width: 90px;
+    color: #fdfbd4;
+    border: 2px solid;
+}
+.card h2 {
+    text-align: center;
+}
+.card {
+    margin-left: 60px;
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fdfbd4;
+    border-radius: 10%;
+    cursor: auto;
+    transition: all 0.6s ease-in-out;
+}
+.card img:hover {
+    transform: scale(1.03); /* Grows 3% */
+    box-shadow: 0 15px 30px #3e572589;
+}
+.text {
+    padding: 0 20px;
+}

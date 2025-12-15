@@ -1,0 +1,69 @@
+body {
+    background-color: #f7f4bb;
+    color: #3e5725;
+}
+p {
+    color: #3e5725;
+    font-size: 20px;
+}
+.December_garden {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: space-between;
+    background-color: #f7f4bb;
+    color:  #3e5725 ;
+    padding: 10px;
+    border: 4px solid #f7f4bb;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.text {
+    flex-basis: 75%;
+}
+/* history */
+.december img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #f7f4bb;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 80px;
+}
+.dec_garden {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 60px;
+}
+/* video */
+.december h2{
+    color: #f7f4bb;
+    font-size: 30px;
+}
+.video {
+    width: 50%;
+    margin: auto;
+}
+.video iframe {
+    margin: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    animation: slide-in 3s ease-in-out 1 forwards
+}
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); 
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

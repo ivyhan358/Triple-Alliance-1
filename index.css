@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fdfbd4 ;
+    color: #32461d;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+.hero1 {
+    clear:both;
+    width: 100vw;
+    height: 400px;
+    background: url(Image2/kandawgyi.webp);
+    background-size: 100% 100%;
+    position:relative;
+    left:0;
+    right:0;
+    top: 60px;
+    bottom:100px;
+
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background-color: #f3f2d883;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    color: #487917;
+}
+.hero1 .text h1 {
+    font-size: 36px;
+}
+.text h1, .text h2, button {
+    text-shadow: 1px 1px 2px rgb(56, 171, 11), 0 0 25px rgb(243, 243, 245), 0 0 5px rgb(246, 246, 249);
+    animation-name: title;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes title {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero1 button {
+    padding: 8px;
+    border-radius: 7px;
+}
+button a {
+    text-decoration: none;
+}
+/* our goal & purpose */
+.goal {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:60px;
+    padding:15px;
+}
+.park_img img {
+    width: 100%;
+    height: 300px;
+    animation: floatUpAndDown 3s ease-in-out infinite alternate;
+}
+@keyframes floatUpAndDown {
+    0% {
+        transform: translateY(0); 
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+.park_img {
+    margin:0 15px;
+    padding:10px;
+}
+.row h2 {
+    font-size: 30px;
+    color: #32461d;
+}
+.row p {
+   
+    margin-top: 10px;
+    color: #32461d;
+}
+/* Important */
+.park_img2 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    border-radius: 10px;
+    cursor:auto;
+    transition: all 0.6s ease-in-out;
+}
+.park_img2 img:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+.park_img2 {
+    margin: 0 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    margin: 10px;
+}
+/* photos */
+.row2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.row2 h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card img {
+    width:100%;
+    height:300px;
+}
+
+.card {
+    margin:0 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding:10px;
+    
+    border-radius: 5px;
+    border: 2px solid #32461d;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 #6c983d, 0 6px 20px 0 #9fee4b;
+}
+/* Created */
+@media screen and (max-width: 600px) {
+    .hero1 .text h1 {
+        font-size: 24px;
+    }
+    .hero1 .text h2 {
+        font-size: 20px;
+    }
+   .goal {
+    margin:30px 20px;
+   }
+}

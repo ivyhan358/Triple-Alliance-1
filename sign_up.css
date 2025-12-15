@@ -1,0 +1,57 @@
+body {
+    background-color: #FFF5CC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    
+}
+.signup-title{
+    font-weight:700;
+    font-size:28px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.box {
+    background-image: url("image3/lavender.jpg"); 
+    background-size: cover;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+}
+
+button {
+    background: #2E4A2F;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+button:hover{
+    background:#3d6b42;
+}
+a {
+    color: white;
+}
